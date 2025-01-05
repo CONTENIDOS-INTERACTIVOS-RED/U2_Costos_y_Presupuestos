@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Introducción a los costos',
+    numeroUnidad: '2',
+    tituloUnidad: 'Presupuestos empresariales',
   },
   menuPrincipal: {
     menu: [
@@ -15,25 +15,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Concepto de costos y su importancia en las organizaciones',
+        titulo: 'Tipos de presupuestos: operativos, financieros y de inversión',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Definición de costos',
+            titulo:
+              'Recursos a tenerse en cuenta en la elaboración de presupuestos',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Diferencia entre empresas industriales y comerciales',
+            titulo: 'Clasificación de los presupuestos',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Objetivos del costo',
+            titulo: 'Tipos de presupuestos',
             hash: 't_1_3',
           },
           {

@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad 1, "Introducción a los costos" tiene, como propósito, que los estudiantes comprendan los conceptos básicos de los costos y los clasifiquen adecuadamente en diversos contextos empresariales. Esta unidad ofrece las bases conceptuales necesarias, explorando la definición y clasificación de costos para que los estudiantes puedan distinguir entre diferentes tipos, como costos fijos, variables, directos e indirectos.
+      p(data-aos="fade-up").mb-5 La Unidad 2 tiene como objetivo que los estudiantes comprendan y apliquen conceptos fundamentales en la elaboración y gestión de presupuestos empresariales. Se abordarán los diferentes tipos de presupuestos: operativos, financieros y de inversión, resaltando su importancia en la planificación estratégica y la toma de decisiones empresariales.
 
       .row.justify-content-center
         .col-lg-12.mb-5

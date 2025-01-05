@@ -20,11 +20,11 @@
           //- Columna derecha con información
           .col-xl-6.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title UNIDAD {{ globalData.numeroUnidad }}
+              p.home-main-title Costos y presupuestos
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La gestión de costos es esencial para el éxito de las organizaciones, dado que permite optimizar recursos, establecer precios competitivos y garantizar la sostenibilidad. Los costos se clasifican, según su relación con la producción (fijos, variables, directos e indirectos) y su correcto análisis facilita decisiones estratégicas, control de inventarios y evaluación de desempeño. Métodos como el costeo ABC o por órdenes de trabajo, asignan costos de forma precisa, según actividades o pedidos específicos. Su adecuada administración fortalece la competitividad, rentabilidad y el cumplimiento normativo de las empresas. 
+              p.descripcion.mb-4 La unidad aborda los presupuestos empresariales, clasificándolos en operativos, financieros y de inversión. Los presupuestos permiten planificar, controlar y optimizar recursos, anticipar riesgos y establecer metas claras. Se detalla su importancia en la gestión financiera, así como los componentes de cada tipo: ventas, producción, gastos operativos, flujo de caja y proyectos de inversión. Además, se describe la metodología de elaboración presupuestaria, destacando etapas claves: diagnóstico empresarial, evaluación del entorno, organización del trabajo, control y evaluación. Finalmente, el análisis y ajuste presupuestal, garantiza una gestión financiera eficiente y estratégica.
               
-              p #[b "Cada paso que se da hacia una meta, por pequeño que parezca, representa una victoria que acerca al éxito".]
+              p #[b "Un presupuesto no es solo un plan financiero, es la brújula que guía los recursos hacia las metas. Planificar hoy, es asegurar el éxito del mañana".]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
