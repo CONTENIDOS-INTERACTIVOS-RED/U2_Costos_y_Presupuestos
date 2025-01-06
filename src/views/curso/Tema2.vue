@@ -331,7 +331,6 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Análisis presupuestal
             p.mb-4(data-aos="fade-right") Se invita a conocer el <b>análisis presupuestal</b>, un proceso clave para identificar y corregir desviaciones entre resultados reales y estimados. Factores internos y externos, pueden generar variaciones, por lo que ajustar el presupuesto mediante <b>reasignación de recursos y medidas correctivas</b>, optimiza la operación y asegura decisiones estratégicas para la sostenibilidad financiera.
-
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
