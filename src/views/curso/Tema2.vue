@@ -342,6 +342,12 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/22.png', alt='')
 
+
+    .bg-full-width.border-top.actividad.bg-color-actividad.color-primario
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+          
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
@@ -375,8 +381,200 @@
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema2',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Metodología para la elaboración de presupuestos',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál es el propósito principal de calcular los costos en una organización?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Controlar el nivel de producción y almacenamiento en la empresa.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Evaluar los recursos invertidos en la producción de bienes o servicios',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Incrementar los ingresos mediante estrategias financieras avanzadas.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Identificar la cantidad de personal necesario para cada proceso.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto: '¿Cómo se define el costo dentro de una organización?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Como un gasto que no genera beneficios y no es recuperable.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Como el único recurso necesario para transformar materias primas.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Como una inversión exclusiva en el almacenamiento de productos terminados.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Como un desembolso que genera un beneficio futuro y es capitalizable',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué elementos componen el costo total de producción en una empresa industrial?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Materias primas y costos totales de maquinaria',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Solo gastos de personal y electricidad',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Materia prima, mano de obra y costos indirectos de fabricación',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Precio de venta y gastos administrativos',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              '¿Cuál es el propósito principal del uso de costos para establecer precios de venta?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Garantizar la calidad de los productos ofertados en el mercado.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Determinar precios competitivos y rentables para el mercado objetivo.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Facilitar la expansión geográfica de la empresa en nuevos mercados.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Mejorar la percepción del cliente sobre el producto ofrecido.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Cómo contribuyen los costos al control eficiente de la producción?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Permiten supervisar y reducir materiales desperdiciados en los procesos.',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Ayudan a calcular las pérdidas contables de los inventarios.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Determinan los tiempos necesarios para la capacitación del personal.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Facilitan la evaluación de estrategias publicitarias para el producto.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -385,4 +583,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
