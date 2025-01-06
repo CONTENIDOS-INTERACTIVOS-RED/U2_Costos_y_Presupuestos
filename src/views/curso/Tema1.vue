@@ -1,23 +1,23 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Concepto de costos y su importancia en las organizaciones'")
+  BannerInterno(:subTitulo="'1. Tipos de presupuestos: operativos, financieros y de inversión'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-5.align-items-center
-      .col-lg-5.mb-3
+      .col-lg-5(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema1/1.png", data-aos="zoom-in")
-      .col-lg-7.bg-color-1
+      .col-lg-7.bg-color-1(data-aos="fade-left")
         .p-5(data-aos="fade-left")
           p(data-aos="fade-left").mb-0 Los presupuestos son herramientas claves en la gestión financiera de las organizaciones. Se dividen en <b>operativos, financieros y de inversión</b>, cada uno con un propósito y enfoque específicos. A continuación, se detallan sus características:
 
-    h2 Definición de presupuestos
+    h2(data-aos="fade-up") Definición de presupuestos
 
-    p Según Rincón (2011), el presupuesto es un análisis sistemático que evalúa los recursos requeridos (inputs) y los resultados esperados (outputs), en procesos productivos y financieros, considerando dinero, tiempo, materiales, espacio, entre otros elementos. Proporciona indicadores financieros esenciales para planificar, anticipar problemas y asegurar el cumplimiento de los objetivos trazados.
-    p.mb-5 Los tipos de presupuestos son: 
+    p(data-aos="fade-up") Según Rincón (2011), el presupuesto es un análisis sistemático que evalúa los recursos requeridos (inputs) y los resultados esperados (outputs), en procesos productivos y financieros, considerando dinero, tiempo, materiales, espacio, entre otros elementos. Proporciona indicadores financieros esenciales para planificar, anticipar problemas y asegurar el cumplimiento de los objetivos trazados.
+    p.mb-5(data-aos="fade-up") Los tipos de presupuestos son: 
 
 
-    TabsC.mb-5
+    TabsC.mb-5(data-aos="flip-up")
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Presupuesto operativo")
         .row.justify-content-center
           .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
@@ -43,7 +43,7 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/4.png', alt='')
 
-    p.mb-5 La importancia del presupuesto es: 
+    p.mb-5(data-aos="fade-right") La importancia del presupuesto es: 
 
     div.row.justify-content-center.align-items-stretch.mb-5
       div.col-lg-4.mb-4(data-aos="zoom-in-up")
@@ -76,73 +76,85 @@
           p.text-center.text-bold Controla el desempeño
           p.mb-0.text-center Actúa como un mecanismo de control, para cumplir metas establecidas.
 
-    p.mb-5 El presupuesto, en esencia, permite a las organizaciones planificar y controlar sus procesos productivos y financieros, optimizando recursos y garantizando la sostenibilidad de las operaciones.
+    p.mb-5(data-aos="fade-right") El presupuesto, en esencia, permite a las organizaciones planificar y controlar sus procesos productivos y financieros, optimizando recursos y garantizando la sostenibilidad de las operaciones.
 
     .row.justify-content-center.mb-3
-      .col-md-4.col-lg-3.col-xl-2.align-items-center
+      .col-md-4.col-lg-3.col-xl-2.align-items-center(data-aos="zoom-in")
         p.h-100.mb-0.bg-color-10.p-4.align-content-center.text-center Preveer circunstancias inciertas.
-      .col-md-4.col-lg-3.col-xl-2.align-items-center
+      .col-md-4.col-lg-3.col-xl-2.align-items-center(data-aos="zoom-in")
         p.h-100.mb-0.bg-color-11.p-4.align-content-center.text-center Trabajar con rumbo definido.
-      .col-md-4.col-lg-3.col-xl-2.align-items-center
+      .col-md-4.col-lg-3.col-xl-2.align-items-center(data-aos="zoom-in")
         p.h-100.mb-0.bg-color-10.p-4.align-content-center.text-center Planear metas razonables.
     .row.justify-content-center.mb-3
-      .col-md-4.col-lg-3.col-xl-2
+      .col-md-4.col-lg-3.col-xl-2(data-aos="zoom-in")
         p.h-100.mb-0.bg-color-11.p-4.align-content-center.text-center Procurar obtener resultados.
-      .col-md-4.col-lg-3.col-xl-2
+      .col-md-4.col-lg-3.col-xl-2(data-aos="zoom-in")
         p.h-100.mb-0.bg-color-10.p-4.align-content-center.text-center Anticiparse al futuro.
-      .col-md-4.col-lg-3.col-xl-2
+      .col-md-4.col-lg-3.col-xl-2(data-aos="zoom-in")
         p.h-100.mb-0.bg-color-11.p-4.align-content-center.text-center Prever el futuro.
     .row.justify-content-center.mb-5
-      .col-md-4.col-lg-3.col-xl-2
+      .col-md-4.col-lg-3.col-xl-2(data-aos="zoom-in")
         p.h-100.mb-0.bg-color-11.p-4.align-content-center.text-center Idear mecanismo para obtener los logros.
-      .col-md-4.col-lg-3.col-xl-2
+      .col-md-4.col-lg-3.col-xl-2(data-aos="zoom-in")
         p.h-100.mb-0.bg-color-10.p-4.align-content-center.text-center Analizar estrategias.
       
-    p.mb-5.bg-color-4.p-4 A continuación, se presentan los beneficios fundamentales de una gestión financiera eficiente, destacando su capacidad para anticiparse a circunstancias inciertas y riesgos potenciales. Esta práctica permite establecer metas alcanzables y mecanismos que faciliten su cumplimiento, asegurando un rumbo claro y estratégico.
+    .bg-full-width.bg-color-4.mb-5
+      .p-4.p-md-5
+        p.mb-0 A continuación, se presentan los beneficios fundamentales de una gestión financiera eficiente, destacando su capacidad para anticiparse a circunstancias inciertas y riesgos potenciales. Esta práctica permite establecer metas alcanzables y mecanismos que faciliten su cumplimiento, asegurando un rumbo claro y estratégico.
 
     .row.align-items-start.mb-5.justify-content-center
-      .col.md-8.col-lg-4.order-2
-        figure
-          img(src="@/assets/curso/tema1/8.png", alt="").mb-4.mb-lg-0
       .col-lg-8.order-1
-        AcordionA(tipo="b")
-          .div(titulo="Prever circunstancias inciertas")
-            p Permite anticipar riesgos financieros e imprevistos, como fluctuaciones del mercado, cambios en costos o emergencias, preparando respuestas adecuadas.
+        LineaTiempoD.color-primario.large(data-aos="fade-left")
+          p(numero="1" titulo="Prever circunstancias inciertas") Permite anticipar riesgos financieros e imprevistos, como fluctuaciones del mercado, cambios en costos o emergencias, preparando respuestas adecuadas.
 
-          .div(titulo="Trabajar con rumbo definido")
-            p Establece límites claros para ingresos y gastos, proporcionando una guía para alinear las decisiones financieras con los objetivos establecidos.
+          p(numero="2" titulo="Trabajar con rumbo definido") Establece límites claros para ingresos y gastos, proporcionando una guía para alinear las decisiones financieras con los objetivos establecidos.
 
-          .div(titulo="Planear metas razonables")
-            p Facilita la definición de metas financieras alcanzables, basadas en recursos disponibles y proyecciones realistas.
-          .div(titulo="Procurar obtener resultados")
-            p Permite hacer un seguimiento continuo del desempeño, evaluando si las estrategias implementadas generan los efectos deseados y ajustando cuando sea necesario.
-          .div(titulo="Anticiparse al futuro")
-            p Ayuda a prever futuros gastos, ingresos y necesidades de inversión, promoviendo una gestión proactiva en lugar de reactiva.
-          .div(titulo="Prever el futuro")
-            p Proyecta la evolución financiera, evaluando posibles escenarios a corto, mediano y largo plazo.
-          .div(titulo="Idear mecanismos para obtener logros")
-            p Permite diseñar estrategias específicas y asignar recursos adecuados para alcanzar los objetivos deseados.
-          .div(titulo="Analizar estrategias")
-            p Funciona como herramienta de control y análisis, evaluando qué estrategias funcionan mejor y realizando ajustes, para optimizar resultados.
-    
-    .row.justify-content-center.mb-5
+          p(numero="3" titulo="Planear metas razonables") Facilita la definición de metas financieras alcanzables, basadas en recursos disponibles y proyecciones realistas.
+
+          p(numero="4" titulo="Procurar obtener resultados") Permite hacer un seguimiento continuo del desempeño, evaluando si las estrategias implementadas generan los efectos deseados y ajustando cuando sea necesario.
+
+          p(numero="5" titulo="Anticiparse al futuro") Ayuda a prever futuros gastos, ingresos y necesidades de inversión, promoviendo una gestión proactiva en lugar de reactiva.
+
+      .col-lg-4.order-2.d-none.d-lg-block
+        figure
+          img(src="@/assets/curso/tema1/38.png", alt="").mb-4.mb-lg-0
+
+
+    .row.align-items-start.mb-5.justify-content-center
+      .col-lg-4.d-none.d-lg-block
+        figure
+          img(src="@/assets/curso/tema1/39.png", alt="").mb-4.mb-lg-0
       .col-lg-8
-        .bg-color-white.shadow-soft.p-3.px-lg-4
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/template/icon-yt2.svg", style="width: 90px;")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.text-small <b>El concepto de presupuesto</b>
-                  p.text-small Para ampliar más sobre el concepto de presupuesto, se sugiere revisar el siguiente video:
+        LineaTiempoD.color-primario.large(data-aos="fade-left").mb-5
 
-                .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/SZ0mCNIXkwQ?si=UATuiByfZ0C2IJoB" target="_blank")
-                    span.text-small Ver video
-                    i.fas.fa-arrow-right
+          p(numero="6" titulo="Prever el futuro") Proyecta la evolución financiera, evaluando posibles escenarios a corto, mediano y largo plazo.
+
+          p(numero="7" titulo="Idear mecanismos para obtener logros") Permite diseñar estrategias específicas y asignar recursos adecuados para alcanzar los objetivos deseados.
+
+          p(numero="8" titulo="Analizar estrategias") Funciona como herramienta de control y análisis, evaluando qué estrategias funcionan mejor y realizando ajustes, para optimizar resultados.
+
+
+
+        .row.justify-content-center.mb-5
+          .col-lg-12
+            .bg-color-white.shadow-soft.p-3.px-lg-4
+              .row.justify-content-around.align-items-center
+                .col-auto
+                  img(src="@/assets/template/icon-yt2.svg", style="width: 90px;")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      p #[b El concepto de presupuesto]
+                      p Para ampliar más sobre el concepto de presupuesto, se sugiere revisar el siguiente video:
+
+                    .col-sm-auto
+                      a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/SZ0mCNIXkwQ?si=UATuiByfZ0C2IJoB" target="_blank")
+                        span Ver video
+                        i.fas.fa-arrow-right
     
-    p.mb-5 El presupuesto es una guía continua que debe ser controlado y evaluado permanentemente. Cada año debe evaluarse el presupuesto anterior y planificar el nuevo presupuesto.
+    .bg-full-width.bg-color-4.mb-5
+      .p-4.p-md-5
+        p.mb-0 El presupuesto es una guía continua que debe ser controlado y evaluado permanentemente. Cada año debe evaluarse el presupuesto anterior y planificar el nuevo presupuesto.
 
     
     .row.justify-content-center.align-items-center.mb-5
@@ -157,10 +169,10 @@
     #t_1_1.titulo-segundo(data-aos="flip-up")
       h2 #[span 1.1] Recursos a tenerse en cuenta en la elaboración de presupuestos
 
-    p.mb-5 La elaboración de un presupuesto, requiere identificar, conocer y gestionar diversos recursos que son necesarios para asegurar que el proceso sea realista, eficiente y alineado con los objetivos organizacionales. A continuación, se describen los principales recursos a tener en cuenta:
+    p.mb-5(data-aos="fade-right") La elaboración de un presupuesto, requiere identificar, conocer y gestionar diversos recursos que son necesarios para asegurar que el proceso sea realista, eficiente y alineado con los objetivos organizacionales. A continuación, se describen los principales recursos a tener en cuenta:
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-10
+      .col-md-10(data-aos="fade-right")
         .titulo-figura.mb-4
           h5 Figura 2. 
           span Recursos a tenerse en cuenta en la elaboración de presupuestos
@@ -170,49 +182,41 @@
     #t_1_2.titulo-segundo(data-aos="flip-up")
       h2 #[span 1.2] Clasificación de los presupuestos
 
-    .bg-full-width.bg-fondo-1   
+    .bg-full-width.bg-fondo-1(data-aos="fade-right")   
       .px-4.px-md-5.pb-md-3
         p.mb-5 Teniendo en cuenta a Vásquez Rojas, (2021), la clasificación de los presupuestos, pueden realizarse desde diferentes perspectivas, dependiendo del enfoque o la finalidad que se persiga. A continuación, se presentan algunas de las categorías más relevantes:
 
         .row.justify-content-center.mb-5
-          .col-11.col-md-8.col-lg-4.col-xl-5.pe-xl-8.mb-3
-            figure.mb-4.mb-md-0
-              img(src='@/assets/curso/tema1/11.png', alt='Texto que describa la imagen')
-          .col-11.col-lg-8.col-xl-7
-            SlyderF(columnas="col-12 col-md-6")
+          .col-12.col-lg-11
+            SlyderF(columnas="col-12 col-md-4")
               .row.py-4.px-3.h-100
                 .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
                   img(src='@/assets/curso/tema1/12.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Licencia sanitaria
-                  p.text-center Obtención de una licencia que certifique las condiciones de higiene y seguridad alimentaria del establecimiento.
+                  h4.text-center.mb-4 Presupuestos públicos y privados.
               .row.py-4.px-3.h-100
                 .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
                   img(src='@/assets/curso/tema1/13.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Permiso de funcionamiento
-                  p.text-center Autorización local que garantice la operación del negocio en conformidad con las normativas municipales.
+                  h4.text-center.mb-4 Presupuestos maestros y auxiliares.
               .row.py-4.px-3.h-100
                 .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
                   img(src='@/assets/curso/tema1/14.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Etiquetado de productos
-                  p.text-center Desarrollo de etiquetas claras con ingredientes, información nutricional y advertencias sobre alérgenos.
+                  h4.text-center.mb-4 Presupuestos fijos y flexibles.
               .row.py-4.px-3.h-100
                 .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
                   img(src='@/assets/curso/tema1/15.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Certificaciones
-                  p.text-center Certificaciones de terceros, como sin gluten u orgánico, para garantizar la calidad y confianza del producto.
+                  h4.text-center.mb-4 Presupuestos estimados o empíricos y presupuestos estándar o científicos.
               .row.py-4.px-3.h-100
                 .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
                   img(src='@/assets/curso/tema1/16.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.text-center.mb-4 Contratación de personal
-                  p.text-center Contratos laborales en cumplimiento con las normativas locales, incluyendo formación en higiene y seguridad.
+                  h4.text-center.mb-4 Presupuesto base cero.
 
-    p.mb-5 A continuación, se presenta su descripción detallada:
+    p.mb-5(data-aos="fade-right") A continuación, se presenta su descripción detallada:
 
-    h2.mb-5 Según la naturaleza del ente que lo elabora
+    h2.mb-5(data-aos="fade-right") Según la naturaleza del ente que lo elabora
 
-    h3 Presupuestos públicos
+    h3(data-aos="fade-right") Presupuestos públicos
 
-    p.mb-5 Son elaborados por entidades gubernamentales o estatales. Estos presupuestos permiten planificar y distribuir los recursos públicos, con el fin de garantizar transparencia y control.
+    p.mb-5(data-aos="fade-right") Son elaborados por entidades gubernamentales o estatales. Estos presupuestos permiten planificar y distribuir los recursos públicos, con el fin de garantizar transparencia y control.
 
     .bg-color-3.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
@@ -221,67 +225,69 @@
 
         .col-lg-auto
           figure
-            img(src='@/assets/curso/tema1/17.png', alt='')
+            img(src='@/assets/curso/tema1/17.png', alt='', data-aos="zoom-in")
     
-    h3 Presupuestos privados
+    h3(data-aos="fade-right") Presupuestos privados
 
-    p Corresponden a empresas u organizaciones del sector privado. Su objetivo es optimizar recursos, maximizar beneficios y garantizar la eficiencia operativa. También se incluyen presupuestos personales para la administración de finanzas individuales o familiares.
+    p(data-aos="fade-right") Corresponden a empresas u organizaciones del sector privado. Su objetivo es optimizar recursos, maximizar beneficios y garantizar la eficiencia operativa. También se incluyen presupuestos personales para la administración de finanzas individuales o familiares.
 
     .row.mb-5
-      .col-lg-4.mb-3
+      .col-lg-4
         figure
-          img(src='@/assets/curso/tema1/18.png', alt='')
+          img(src='@/assets/curso/tema1/18.png', alt='', data-aos="zoom-in")
       .col-lg-8
         p.align-content-center.p-4.bg-color-9.h-100 <b>Ejemplo</b>. El presupuesto anual de una empresa para producción, <em>marketing</em> y recursos humanos.
     
-    h3 Según su estructura
+    h2(data-aos="fade-right") Según su estructura
 
-    p Los presupuestos, según su estructura, permiten organizar y controlar los recursos financieros de una organización.
+    p(data-aos="fade-right") Los presupuestos, según su estructura, permiten organizar y controlar los recursos financieros de una organización.
 
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-6.mb-4(data-aos="zoom-in-up")
-        .custom-image-card-2.h-100
-          img.custom-image-card__image(src="@/assets/curso/tema1/19.png" alt="")
-          .custom-image-card__text.p-4
-            h5.mb-2.text-center Presupuesto maestro
-            p.mb-0 Consolida los presupuestos de todas las áreas o departamentos, ofreciendo una visión global.
-      .col-lg-6.mb-4(data-aos="zoom-in-down")
-        .custom-image-card-2.h-100
-          img.custom-image-card__image(src="@/assets/curso/tema1/20.png" alt="")
-          .custom-image-card__text.p-4
-            h5.mb-2.text-center Presupuestos auxiliares	
-            p.mb-0 Desglosan los presupuestos individuales por áreas o departamentos, detallando costos específicos.
-    
-    div.bg-color-8.p-5.mb-5
+    .bg-full-width.bg-fondo-1   
+      .px-4.px-md-5.pb-md-3
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-6.mb-4(data-aos="zoom-in-up")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema1/19.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Presupuesto maestro
+                p.mb-0 Consolida los presupuestos de todas las áreas o departamentos, ofreciendo una visión global.
+          .col-lg-6.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/tema1/20.png" alt="")
+              .custom-image-card__text.p-4
+                h5.mb-2.text-center Presupuestos auxiliares	
+                p.mb-0 Desglosan los presupuestos individuales por áreas o departamentos, detallando costos específicos.
+        
+    div.bg-color-8.p-5.mb-5(data-aos="fade-right")
       p.text-bold Ejemplo práctico:
       p.mb-0 ●	<b>El presupuesto maestro</b> de una empresa, incluye áreas como recursos humanos, producción y ventas.
       p.mb-0 ●	<b>El presupuesto auxiliar</b> de recursos humanos, detalla sueldos, capacitaciones y beneficios del personal.
 
-    h2 Según su flexibilidad
+    h2(data-aos="fade-right") Según su flexibilidad
     
-    p La flexibilidad de los presupuestos determina su capacidad de adaptación, frente a cambios internos o externos.
+    p(data-aos="fade-right") La flexibilidad de los presupuestos determina su capacidad de adaptación, frente a cambios internos o externos.
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
           .row.align-items-center.p-4.p-md-5.justify-content-center
-            .col-md-8.col-lg-5.order-lg-2.mb-3
+            .col-md-8.col-lg-5.order-lg-2
               figure
-                img(src="@/assets/curso/tema1/21.png")
+                img(src="@/assets/curso/tema1/41.png")
             .col-lg-7.order-lg-1
               h5 Presupuestos fijos
               p Se mantienen inalterables durante un período determinado, sin importar los cambios en las condiciones externas. 
               p <b>Ejemplo</b>. Un presupuesto fiscal anual en entidades públicas, donde los rubros se establecen y no se modifican.
           .row.align-items-center.p-4.p-md-5.justify-content-center
-            .col-md-8.col-lg-5.order-lg-2.mb-3
+            .col-md-8.col-lg-5.order-lg-2
               figure
-                img(src="@/assets/curso/tema1/22.png")
+                img(src="@/assets/curso/tema1/42.png")
             .col-lg-7.order-lg-1
               h5 Presupuestos flexibles
               p Se ajustan de acuerdo con variaciones internas o externas, adaptándose a situaciones imprevistas. 
               p <b>Ejemplo</b>. La revisión de presupuestos por empresas durante la pandemia del 2020 ante la caída en ventas y producción.
 
-    h3 Según su método de elaboración
+    h2(data-aos="fade-right").mb-5 Según su método de elaboración
 
     .row.mb-5.justify-content-center
       .col-md-8.col-lg-3.mb-3
@@ -316,7 +322,7 @@
     .row.align-items-start.mb-5.justify-content-center
       .col.md-8.col-lg-4
         figure
-          img(src="@/assets/curso/tema1/26.png", alt="").mb-4.mb-lg-0
+          img(src="@/assets/curso/tema1/43.png", alt="").mb-4.mb-lg-0
       .col-lg-8
         AcordionA(tipo="b")
           .div(titulo="Aplicaciones")
@@ -343,10 +349,10 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      p.text-small.align-content-center.mb-0 <b>Video.</b> Análisis presupuestal
+                      p.align-content-center.mb-0 <b>Video.</b> Análisis presupuestal
                     .col-sm-auto
                       a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/VTGK3O5NsRU?si=zK1Lq66RzXHkPFls " target="_blank")
-                        span.text-small Ver video
+                        span Ver video
                         i.fas.fa-arrow-right
     
     #t_1_3.titulo-segundo(data-aos="flip-up")
@@ -478,13 +484,6 @@
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://economipedia.com/definiciones/presupuesto.html" target="_blank" rel="noopener noreferrer") Sánchez Galán, J. & Coll Morales, F. (2024). Presupuesto. Economipedia.  
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://openai.com/chatgpt" target="_blank" rel="noopener noreferrer") ChatGPT. 
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.wolframalpha.com" target="_blank" rel="noopener noreferrer") WolframAlpha  
             
             //- Referencia de youtube 
             p.d-flex.my-4

@@ -20,7 +20,7 @@
           //- Columna derecha con información
           .col-xl-6.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Costos y presupuestos
+              p.home-main-title UNIDAD {{ globalData.numeroUnidad }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
               p.descripcion.mb-4 La unidad aborda los presupuestos empresariales, clasificándolos en operativos, financieros y de inversión. Los presupuestos permiten planificar, controlar y optimizar recursos, anticipar riesgos y establecer metas claras. Se detalla su importancia en la gestión financiera, así como los componentes de cada tipo: ventas, producción, gastos operativos, flujo de caja y proyectos de inversión. Además, se describe la metodología de elaboración presupuestaria, destacando etapas claves: diagnóstico empresarial, evaluación del entorno, organización del trabajo, control y evaluación. Finalmente, el análisis y ajuste presupuestal, garantiza una gestión financiera eficiente y estratégica.
               
