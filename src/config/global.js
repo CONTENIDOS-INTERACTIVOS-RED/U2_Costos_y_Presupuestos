@@ -73,27 +73,6 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Métodos básicos de acumulación de costos',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Costeo ABC (<em>Activity Base Costing</em>)',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Costeo por órdenes de trabajo (o por órdenes específicas)',
-            hash: 't_3_2',
-          },
-        ],
-      },
-      {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
         desarrolloContenidos: true,
@@ -131,89 +110,84 @@ export default {
   referencias: [
     {
       referencia:
-        'Vásquez Rojas, F. A. (2021). Costos y Presupuestos para financieros junior. Nueva Legislación SAS. ',
+        'Mateo Pacheco, M. (2023). Contabilidad previsional: ADGN0108. IC Editorial.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/160288?page=10  ',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/229801?page=6 ',
     },
     {
       referencia:
-        'Mallo Rodríguez, C. & Jiménez Montañes, M. Á. (2015). Contabilidad de costes (3 ed.). Ediciones Pirámide.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/49101  ',
-    },
-    {
-      referencia:
-        'Fernández Álvarez, C. A. & Miñambres Puig, P. (2015). Contabilidad de costes. Dykinson. ',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/34255 ',
-    },
-    {
-      referencia:
-        'Cárdenas y Nápoles, R. A. (2016). Costos 1. Instituto Mexicano de Contadores Públicos. ',
+        'Pacheco Coello, C. E. (2015). Presupuestos: un enfoque gerencial. Instituto Mexicano de Contadores Públicos.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/116368?page=39 ',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/116416?page=310 ',
     },
     {
       referencia:
-        'Sinisterra Valencia, G. (2011). Contabilidad de costos. Ecoe Ediciones. ',
+        'Rincón Soto, C. A. (2011). Presupuestos empresariales. Ecoe Ediciones.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/69014?page=11 ',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/69162?page=19 ',
     },
     {
       referencia:
-        'Cárdenas y Nápoles, R. A. (2016). Costos 1. Instituto Mexicano de Contadores Públicos. ',
+        'Rivero Zanatta, J. P. (2013). Costos y presupuestos: reto de todos los días. Universidad Peruana de Ciencias Aplicadas (UPC).',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/41311?page=8 ',
+    },
+    {
+      referencia:
+        'Vásquez Rojas, F. A. (2021). Costos y presupuestos para financieros junior. Grupo Editorial Nueva Legislación SAS.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/116368?page=39 ',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/160288?page=13 ',
     },
   ],
   glosario: [
     {
-      termino: 'Costos directos',
+      termino: 'Análisis de variaciones',
       significado:
-        'Son aquellos costos que se pueden asignar directamente a la producción de un bien o servicio, como los materiales y la mano de obra directa.',
+        'Proceso de comparar los presupuestos planificados, con los resultados reales, con el fin de identificar desviaciones y corregir acciones para mejorar la eficiencia y efectividad financiera.',
     },
     {
-      termino: 'Costos indirectos',
+      termino: 'Capacidad presupuestaria',
       significado:
-        'Son aquellos costos que no se pueden asignar directamente a un producto o servicio específico, como los costos de administración, renta o energía.',
+        'Límite máximo de gasto que una entidad puede financiar sin superar sus recursos disponibles, considerando las proyecciones de ingresos y las necesidades de inversión y operación.',
     },
     {
-      termino: 'Costos fijos',
+      termino: 'Clases de presupuestos',
       significado:
-        'Son costos que no cambian con el nivel de producción o ventas, como el alquiler de la fábrica o los sueldos del personal administrativo.',
+        'Los presupuestos pueden clasificarse como operativos, de inversión, financieros, estáticos, flexibles, entre otros, dependiendo de su propósito y la naturaleza de las actividades que cubren.',
     },
     {
-      termino: 'Costos variables',
+      termino: 'Control presupuestario',
       significado:
-        'Son aquellos costos que varían directamente con el nivel de producción, como los materiales directos y la mano de obra directa.',
+        'Proceso de seguimiento continuo de los resultados financieros, frente a lo presupuestado, permitiendo realizar ajustes oportunos y garantizar el cumplimiento de los objetivos financieros establecidos.',
     },
     {
-      termino: 'Costos totales',
+      termino: 'Elaboración del presupuesto',
       significado:
-        'Es la suma de todos los costos asociados con la producción de un bien o servicio, que incluye los costos directos e indirectos, fijos y variables.',
+        'Fase en la que se diseñan las proyecciones de ingresos y egresos de una entidad, basándose en análisis previos y en las expectativas de recursos, para el período fiscal.',
     },
     {
-      termino: 'Costos de oportunidad',
+      termino: 'Estimación de ingresos',
       significado:
-        'Son los beneficios perdidos por elegir una opción sobre otra. Este costo se refiere a lo que se deja de ganar, al tomar una decisión en lugar de otra.',
+        'Proceso de proyectar los ingresos esperados durante un período determinado, basándose en estudios de mercado, análisis de tendencias y antecedentes históricos.',
     },
     {
-      termino: 'Costeo absorbente',
+      termino: 'Evaluación presupuestaria',
       significado:
-        'Método que asigna tanto los costos fijos como los variables, a los productos, considerando todos los costos de producción.',
+        'Examen de los resultados obtenidos tras la ejecución del presupuesto, comparando lo planificado con lo real, para determinar el desempeño y realizar mejoras en futuros presupuestos.',
     },
     {
-      termino: 'Costeo directo o variable',
+      termino: 'Presupuesto base cero',
       significado:
-        'Método que solo considera los costos variables al calcular el costo de producción de un producto, excluyendo los costos fijos.',
+        'Método en el que todas las partidas de gastos deben justificar su necesidad, desde cero, sin basarse en presupuestos anteriores, permitiendo optimizar el uso de los recursos disponibles.',
     },
     {
-      termino: 'Punto de equilibrio',
+      termino: 'Presupuesto de caja',
       significado:
-        'Es el nivel de ventas o producción en el que los ingresos totales son iguales a los costos totales, sin generar ni pérdidas ni ganancias.',
+        'Herramienta que proyecta los flujos de efectivo entrantes y salientes, durante un período, ayudando a la empresa a garantizar la liquidez suficiente para cubrir sus obligaciones financieras.',
     },
     {
-      termino: 'Margen de contribución',
+      termino: 'Presupuesto de capital',
       significado:
-        'Es la diferencia entre los ingresos por ventas y los costos variables, que cubre los costos fijos y genera ganancias.',
+        'Planificación financiera a largo plazo, para proyectos de inversión, donde se detallan los gastos de adquisición de activos fijos y el financiamiento requerido para llevar a cabo, estos proyectos.',
     },
   ],
 }

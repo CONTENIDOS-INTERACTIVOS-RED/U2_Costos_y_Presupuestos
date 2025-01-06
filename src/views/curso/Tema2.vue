@@ -3,8 +3,8 @@
   BannerInterno(:subTitulo="'2. Metodología para la elaboración de presupuestos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.mb-5
-      .col-lg-4
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-4.mb-3
         figure
           img(src="@/assets/curso/tema2/1.png", alt="").mb-4.mb-lg-0
       .col-lg-8.bg-color-6.p-4
@@ -57,14 +57,14 @@
         .col-lg.px-5.mb-3.order-2
           p.mb-0  En el ámbito comercial, el análisis de la competencia adquiere un papel central. Este análisis implica evaluar aspectos como la percepción de la marca, las preferencias y las tendencias de consumo, las capacidades de la fuerza de ventas, y la relación entre calidad y el precio de los productos.
 
-        .col-lg-auto.order-1
+        .col-lg-auto.order-1.mb-3
           figure
             img(src='@/assets/curso/tema2/6.png', alt='')
     
     p.mb-5 Resulta esencial considerar el prestigio de la empresa, tanto en el mercado nacional como en el internacional, junto con las tendencias de participación en los sectores en los que la organización tiene presencia.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-6.col-lg-4
+      .col-md-8.col-lg-4
         .titulo-figura.mb-4
           h5 Figura 3. 
           span Diagnóstico empresarial
@@ -76,11 +76,11 @@
     
     p.mb-5 La organización del trabajo presupuestal, requiere una asignación clara de actividades para cada participante en el proceso de elaboración del presupuesto. Es fundamental establecer reglas que regulen el flujo de información, definan la secuencia de pasos a seguir y aseguren una adecuada coordinación entre las partes involucradas. Esto permite que el presupuesto se elabore dentro de los plazos establecidos y con la participación activa de todos los niveles de la empresa.
 
-    .row.mb-5
-      .col-lg-4.order-2
+    .row.mb-5.justify-content-center
+      .col-md-10.col-lg-4.order-2
         figure
           img(src="@/assets/curso/tema2/8.png", alt="").mb-4.mb-lg-0
-      .col-lg-8.order-1.bg-color-4.p-4.align-content-center
+      .col-lg-8.order-1.bg-color-4.p-4.align-content-center.mb-3
         p.mb-0 La estructura de esta organización varía, según la magnitud de las operaciones de la empresa, dado que las necesidades y los recursos disponibles influyen directamente en el enfoque y la distribución de responsabilidades. Un trabajo presupuestal bien planificado, garantiza que todas las áreas colaboren de manera eficiente, para cumplir con los objetivos establecidos.
 
     #t_2_4.titulo-segundo(data-aos="flip-up")
@@ -92,7 +92,7 @@
       h5 Figura 4. 
       span Etapas para elaborar presupuestos
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-7.col-lg-5
+      .col-md-10.col-lg-5
         figure
           img(src="@/assets/curso/tema2/9.svg", data-aos="zoom-in")
         figcaption.mt-2.text-center.mb-4 Nota. Rincón (2011).
@@ -170,7 +170,9 @@
     p.mb-5 La fase de elaboración presupuestaria es crucial para la asignación eficiente de recursos en una organización. A continuación, se detallan los aspectos más relevantes de esta fase, para cada área funcional.
 
     figure.mb-5
-      img(src="@/assets/curso/tema2/13-1.svg", alt="").mb-4.mb-lg-0
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/lFRXAiwrHbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 
     h3 Función presupuestaria y consolidación
 
@@ -214,7 +216,7 @@
       .col-lg-4.order-2
         figure
           img(src="@/assets/curso/tema2/17.png", alt="").mb-4.mb-lg-0
-      .col-lg-8.order-1.bg-color-4.p-4.align-content-center
+      .col-lg-8.order-1.bg-color-4.p-4.align-content-center.mb-3
         p El <b>director de Presupuestos</b>, tiene la responsabilidad de:
         p.mb-0 ●	Apoyar a las gerencias en la implementación de los objetivos definidos.
         p.mb-0 ●	Elaborar y presentar informes periódicos sobre la ejecución, adaptados a las necesidades de cada área o departamento y alineados con las metas generales.
@@ -306,7 +308,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8
-        .bg-color-white.shadow-soft.py-3.px-lg-4
+        .bg-color-white.shadow-soft.p-3.px-lg-4
           .row.justify-content-around.align-items-center
             .col-auto
               img(src="@/assets/template/icon-yt2.svg", style="width: 90px;")
@@ -326,7 +328,7 @@
     p.mb-5 El análisis y ajuste presupuestal es un proceso en la gestión financiera que permite evaluar el desempeño real frente a las proyecciones presupuestarias, con el fin de garantizar que los recursos se utilicen de manera eficiente y alineada con los objetivos organizacionales. Este proceso implica identificar desviaciones, analizar sus causas y, si es necesario, realizar ajustes, para mantener el control financiero y mejorar la toma de decisiones.
 
     .bg-full-width.bg-color-2.mb-lg-5
-      .px-4.p-md-5
+      .p-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Análisis presupuestal
@@ -342,83 +344,6 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema2/22.png', alt='')
 
-
-  //
-    #t_2_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.1] Clasificación de costos, según el volumen 
-
-    p(data-aos="fade-left").mb-4 La clasificación de los costos, según el volumen de producción, se divide en <b>costos fijos y costos variables</b>, los cuales se diferencian por su comportamiento frente a los cambios en la actividad o nivel de producción.
-
-    TabsC.mb-5
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Costos fijos")
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Costos fijos
-            p Permanecen constantes en total, independientemente del nivel de producción. Varían por unidad, según la cantidad producida. Ejemplo: el alquiler mensual de una fábrica. 
-            p.mb-0 Características: 
-            p.mb-0 ● No dependen del volumen total. 
-            p.mb-0 ● Varían por unidad, según el nivel de producción. 
-            p.mb-0 ● Son constantes en un periodo.
-
-        
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/2.png', alt='')
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Costos variables")
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Costos variables
-            p Cambian proporcionalmente, según el nivel de actividad o producción. A mayor producción, mayor será el costo total, y viceversa. Ejemplo: el costo de la materia prima, como madera para sillas.
-            p.mb-0 Características: 
-            p.mb-0 ● Proporcionales al nivel de producción. 
-            p.mb-0 ● Fáciles de calcular, según el volumen de producción.
-
-        
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/3.png', alt='')
-    
-    #t_2_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.1] Clasificación de costos, según su aplicación
-
-    p.mb-5 Según su relación directa o indirecta con el producto, los costos se clasifican en <b>costos directos y costos indirectos.</b>
-
-    .bg-full-width.bg-fondo-slider.mb-5
-      .p-4.p-md-5
-        SlyderA(tipo="b").bg-white
-          .row.align-items-center.p-4.p-md-5.justify-content-center
-            .col-md-8.col-lg-5.order-lg-2.mb-3
-              figure
-                img(src="@/assets/curso/tema2/4.png")
-            .col-lg-7.order-lg-1
-              h5 Costos directos
-              p Se asocian directamente a un producto, servicio o departamento específico. Ejemplo: el sueldo de un operario que ensambla autos, fácilmente rastreable al proceso de fabricación de cada vehículo. 
-              p.mb-0 Características: 
-              p.mb-0 ● Fácilmente asignables y medibles. 
-              p.mb-0 ● Relacionados directamente con el producto o servicio.
-
-          .row.align-items-center.p-4.p-md-5.justify-content-center
-            .col-md-8.col-lg-5.order-lg-2.mb-3
-              figure
-                img(src="@/assets/curso/tema2/5.png")
-            .col-lg-7.order-lg-1
-              h5 Costos indirectos
-              p No pueden asociarse directamente a un solo producto o servicio, sino que afectan la operación general de la empresa. Ejemplo: el consumo de electricidad para iluminar toda una planta de producción. 
-              p.mb-0 Características: 
-              p.mb-0 ● Necesitan procesos de asignación para distribuirlos. 
-              p.mb-0 ● No son rastreables a un solo objeto de costo.
-      
-    .row.mb-5.bg-color-6.p-4.align-items-center.justify-content-center
-      .col-lg.order-2
-        p.mb-0 La correcta identificación y clasificación de los costos, según el volumen o su aplicación, es fundamental para la gestión financiera y estratégica de una empresa. Permite una mejor toma de decisiones y una asignación precisa de recursos, asegurando la sostenibilidad y competitividad en el mercado.
-      .col-auto.order-1.mb-3
-        figure
-          img(src="@/assets/curso/tema2/6.svg", data-aos="zoom-in")
-
-    
-
-
-
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
@@ -429,29 +354,34 @@
             //- Referencia con enlace 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.redalyc.org/journal/206/20663246011/html/" target="_blank" rel="noopener noreferrer") Rincón-Soto, C. A., Sánchez-Mayorga, X. & Cardona-Restrepo, L. M. (2019). Clasificación teórica de los costos. Revista EAN, 87, pp. 193-206.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/219237?page=9" target="_blank" rel="noopener noreferrer") Buitrago Ibáñez, J. V. (2021). Presupuestos en Excel. Editorial UPTC.  
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/116614?page=7" target="_blank" rel="noopener noreferrer") Mendoza Roca, C. (2017). Presupuestos para empresas de manufactura. Universidad del Norte.  
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/116368?page=39" target="_blank" rel="noopener noreferrer") Cárdenas y Nápoles, R. A. (2016). Costos 1. Instituto Mexicano de Contadores Públicos.  
+              a(href="https://hector.marinruiz.com.mx/wp-content/uploads/YMCAECP02052513.pdf " target="_blank" rel="noopener noreferrer") Marín Ruiz, H. (s.f.). Metodología para la elaboración de un presupuesto.  
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.contabilidadfinanciera.com/clasificacion-costos" target="_blank" rel="noopener noreferrer") ContabilidadFinanciera.com. (s.f.). Clasificación de los costos según su comportamiento. 
+              a(href="https://www.planguru.com" target="_blank" rel="noopener noreferrer") PlanGuru  
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://mig-now.com/" target="_blank" rel="noopener noreferrer") SAP S/4HANA
-
-
+              a(href="https://www.microsoft.com/excel " target="_blank" rel="noopener noreferrer") Microsoft Excel (con Power Query)   
+            
             //- Referencia de youtube 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/2DTiQstayrQ?si=-hElVFSXsT8vENCk" target="_blank" rel="noopener noreferrer") Jhoshimar Marca. (2022). Elementos del costo de producción.
+              a(href="https://youtu.be/xO6g3TKWEOw?si=3WRXm2DjAS95wxA0" target="_blank" rel="noopener noreferrer") UA Costos y Control de Gestión FCEA UDELAR. (2021). Contabilidad Gerencial Presupuesto parte 3. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/FWruEThjBNQ?si=RX3gUu0fA9PuoleD" target="_blank" rel="noopener noreferrer") Campus Virtual. (2019). Presupuesto etapas para su elaboración. 
+
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='')
-
 </template>
 
 <script>

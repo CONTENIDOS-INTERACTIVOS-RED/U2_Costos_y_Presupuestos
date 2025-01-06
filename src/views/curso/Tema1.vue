@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-5.align-items-center
-      .col-lg-5
+      .col-lg-5.mb-3
         figure
           img(src="@/assets/curso/tema1/1.png", data-aos="zoom-in")
       .col-lg-7.bg-color-1
@@ -79,23 +79,23 @@
     p.mb-5 El presupuesto, en esencia, permite a las organizaciones planificar y controlar sus procesos productivos y financieros, optimizando recursos y garantizando la sostenibilidad de las operaciones.
 
     .row.justify-content-center.mb-3
-      .col-lg-2.align-items-center
+      .col-md-4.col-lg-3.col-xl-2.align-items-center
         p.h-100.mb-0.bg-color-10.p-4.align-content-center.text-center Preveer circunstancias inciertas.
-      .col-lg-2.align-items-center
+      .col-md-4.col-lg-3.col-xl-2.align-items-center
         p.h-100.mb-0.bg-color-11.p-4.align-content-center.text-center Trabajar con rumbo definido.
-      .col-lg-2.align-items-center
+      .col-md-4.col-lg-3.col-xl-2.align-items-center
         p.h-100.mb-0.bg-color-10.p-4.align-content-center.text-center Planear metas razonables.
     .row.justify-content-center.mb-3
-      .col-lg-2
+      .col-md-4.col-lg-3.col-xl-2
         p.h-100.mb-0.bg-color-11.p-4.align-content-center.text-center Procurar obtener resultados.
-      .col-lg-2
+      .col-md-4.col-lg-3.col-xl-2
         p.h-100.mb-0.bg-color-10.p-4.align-content-center.text-center Anticiparse al futuro.
-      .col-lg-2
+      .col-md-4.col-lg-3.col-xl-2
         p.h-100.mb-0.bg-color-11.p-4.align-content-center.text-center Prever el futuro.
     .row.justify-content-center.mb-5
-      .col-lg-2
+      .col-md-4.col-lg-3.col-xl-2
         p.h-100.mb-0.bg-color-11.p-4.align-content-center.text-center Idear mecanismo para obtener los logros.
-      .col-lg-2
+      .col-md-4.col-lg-3.col-xl-2
         p.h-100.mb-0.bg-color-10.p-4.align-content-center.text-center Analizar estrategias.
       
     p.mb-5.bg-color-4.p-4 A continuación, se presentan los beneficios fundamentales de una gestión financiera eficiente, destacando su capacidad para anticiparse a circunstancias inciertas y riesgos potenciales. Esta práctica permite establecer metas alcanzables y mecanismos que faciliten su cumplimiento, asegurando un rumbo claro y estratégico.
@@ -127,7 +127,7 @@
     
     .row.justify-content-center.mb-5
       .col-lg-8
-        .bg-color-white.shadow-soft.py-3.px-lg-4
+        .bg-color-white.shadow-soft.p-3.px-lg-4
           .row.justify-content-around.align-items-center
             .col-auto
               img(src="@/assets/template/icon-yt2.svg", style="width: 90px;")
@@ -146,7 +146,7 @@
 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.col-lg-6
+      .col-md-10.col-lg-6
         .titulo-figura.mb-4
           h5 Figura 1. 
           span Enfoques de tiempos de la información productiva y financiera
@@ -160,7 +160,7 @@
     p.mb-5 La elaboración de un presupuesto, requiere identificar, conocer y gestionar diversos recursos que son necesarios para asegurar que el proceso sea realista, eficiente y alineado con los objetivos organizacionales. A continuación, se describen los principales recursos a tener en cuenta:
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-8.col-lg-10
+      .col-md-10
         .titulo-figura.mb-4
           h5 Figura 2. 
           span Recursos a tenerse en cuenta en la elaboración de presupuestos
@@ -175,11 +175,11 @@
         p.mb-5 Teniendo en cuenta a Vásquez Rojas, (2021), la clasificación de los presupuestos, pueden realizarse desde diferentes perspectivas, dependiendo del enfoque o la finalidad que se persiga. A continuación, se presentan algunas de las categorías más relevantes:
 
         .row.justify-content-center.mb-5
-          .col-11.col-md-4.col-xl-5.pe-xl-8
+          .col-11.col-md-8.col-lg-4.col-xl-5.pe-xl-8.mb-3
             figure.mb-4.mb-md-0
               img(src='@/assets/curso/tema1/11.png', alt='Texto que describa la imagen')
-          .col-11.col-md-8.col-xl-7
-            SlyderF(columnas="col-12 col-lg-6")
+          .col-11.col-lg-8.col-xl-7
+            SlyderF(columnas="col-12 col-md-6")
               .row.py-4.px-3.h-100
                 .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
                   img(src='@/assets/curso/tema1/12.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
@@ -216,7 +216,7 @@
 
     .bg-color-3.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg.px-5.mb-3
+        .col-lg.p-5.mb-3
           p.mb-0  <b>Ejemplo</b>. El Presupuesto General de la Nación en Colombia, detalla los ingresos y los egresos del país, asignando recursos a diferentes áreas y proyectos.
 
         .col-lg-auto
@@ -228,7 +228,7 @@
     p Corresponden a empresas u organizaciones del sector privado. Su objetivo es optimizar recursos, maximizar beneficios y garantizar la eficiencia operativa. También se incluyen presupuestos personales para la administración de finanzas individuales o familiares.
 
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3
         figure
           img(src='@/assets/curso/tema1/18.png', alt='')
       .col-lg-8
@@ -283,8 +283,8 @@
 
     h3 Según su método de elaboración
 
-    .row.mb-5
-      .col-lg-3
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-3.mb-3
         figure
           img(src="@/assets/curso/tema1/23.png")
       .col-lg-9
@@ -328,12 +328,12 @@
     p.mb-5 <b>Reflexión clave.</b> Aunque no haya antecedentes, el uso de herramientas como análisis de mercado y proyecciones razonables, permite obtener estimaciones realistas que eviten la subestimación de costos o problemas operativos.  
 
     .bg-full-width.bg-color-2.mb-5
-      .px-4.px-md-5.pb-md-3.pt-md-5
+      .p-4.px-md-5.pb-md-3.pt-md-5
         .row.mb-5.align-items-center
           .col-lg-5.mb-3.order-2
             figure
               img(src='@/assets/curso/tema1/27.png', alt='')
-          .col-lg-7.order-1
+          .col-lg-7.order-1.mb-3
             h2 Análisis presupuestal
             p Se invita a conocer el <b>análisis presupuestal</b>, un proceso clave para identificar y corregir desviaciones entre resultados reales y estimados. Factores internos y externos. pueden generar variaciones, por lo que ajustar el presupuesto mediante <b>reasignación de recursos y medidas correctivas</b>, optimiza la operación y asegura decisiones estratégicas para la sostenibilidad financiera.
             .bg-color-white.shadow-soft.py-3.px-lg-4
@@ -356,8 +356,8 @@
 
     h2.mb-5 Presupuestos operativos
 
-    .row.mb-5
-      .col-lg-4
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-4.mb-3
         figure
           img(src="@/assets/curso/tema1/28.png", alt="").mb-4.mb-lg-0
       .col-lg-8
@@ -374,32 +374,32 @@
             figure
               img(src='@/assets/curso/tema1/29.svg', alt='', style="max-width: 1106px;").mx-auto
 
-          .bg-color-4.tarjeta.box-shadow.p-3(x="8%" y="18%" numero="+")
+          .bg-color-4.tarjeta.box-shadow.p-3(x="6%" y="10%" numero="+")
             h5 Presupuesto de ventas
             p Se enfoca en la proyección de los ingresos esperados por la venta de bienes o servicios. Implica un análisis de la demanda del mercado, estrategias de precios y políticas comerciales. Es la base para otros presupuestos operativos, determinando el volumen de producción necesario y los recursos asociados.
 
-          .bg-color-4.tarjeta.box-shadow.p-3(x="92%" y="18%" numero="+")
+          .bg-color-4.tarjeta.box-shadow.p-3(x="94%" y="10%" numero="+")
             h5 Presupuesto de producción
             p Detalla los costos relacionados con la fabricación de productos, incluyendo materias primas, mano de obra directa y costos indirectos de producción. Asegura la producción necesaria para satisfacer la demanda proyectada, evitando problemas de sobreproducción o desabastecimiento..
 
-          .bg-color-4.tarjeta.box-shadow.p-3(x="50%" y="92%" numero="+")
+          .bg-color-4.tarjeta.box-shadow.p-3(x="50%" y="95%" numero="+")
             h5 Presupuesto de gastos operativos
             p Incluye todos los costos necesarios para mantener las operaciones diarias. Abarca gastos administrativos (sueldos, suministros), mantenimiento (reparación de equipos e instalaciones) y costos generales (transporte, servicios públicos) imprescindibles para el funcionamiento continuo de la empresa.
     
     h3 Elaborar un presupuesto operativo, ofrece múltiples beneficios. 
 
-    .row.mb-5
-      .col-lg-9
+    .row.mb-5.justify-content-center
+      .col-lg-9.mb-3
         p Permite a la organización planificar, de manera estratégica, sus actividades diarias, al tiempo que facilita la toma de decisiones informada, identificando áreas de mejora o posibles recortes de costos. 
         p.mb-0.bg-color-6.p-4 Este tipo de presupuesto es importante para medir el desempeño, porque permite comparar las proyecciones con los resultados reales y tomar medidas correctivas si es necesario; asimismo, contribuye a una mejor gestión del flujo de efectivo, ayudando con el anticipo de necesidades financieras y evitando problemas de liquidez.
-      .col-lg-3
+      .col-md-8.col-lg-3
         figure
           img(src="@/assets/curso/tema1/30.png", alt="").mb-4.mb-lg-0
     
     h3.mb-5 Presupuestos financieros
 
     .row.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3
         figure
           img(src="@/assets/curso/tema1/31.png", alt="").mb-4.mb-lg-0
       .col-lg-8
@@ -462,7 +462,42 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/37.png', alt='')
     
- 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://bdigital.uncu.edu.ar/fichas.php?idobjeto=16655" target="_blank" rel="noopener noreferrer") Comperatore, V. & Domínguez Soler, M. G. (2021). Implementación de un sistema presupuestario en una Pyme: Relevamiento y análisis del sistema en una empresa de servicios de la provincia de Mendoza. Universidad Nacional de Cuyo.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://economipedia.com/definiciones/presupuesto.html" target="_blank" rel="noopener noreferrer") Sánchez Galán, J. & Coll Morales, F. (2024). Presupuesto. Economipedia.  
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://openai.com/chatgpt" target="_blank" rel="noopener noreferrer") ChatGPT. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.wolframalpha.com" target="_blank" rel="noopener noreferrer") WolframAlpha  
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/VTGK3O5NsRU?si=zK1Lq66RzXHkPFls" target="_blank" rel="noopener noreferrer") Carlos Ramírez MBA EA. (2021). ¿QUÉ es un PRESUPUESTO? | APRENDER CONTABILIDAD BÁSICA 2021 | Parte #7. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/SZ0mCNIXkwQ?si=UATuiByfZ0C2IJoB" target="_blank" rel="noopener noreferrer") Campus Virtual. (2019). Presupuesto Conceptos generales. 
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+
 
 </template>
 

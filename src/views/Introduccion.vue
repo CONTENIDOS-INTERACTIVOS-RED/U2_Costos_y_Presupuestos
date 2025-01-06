@@ -7,7 +7,7 @@
     
     .bg-color-3.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg.px-5.mb-3
+        .col-lg.p-4.mb-3
           p.mb-0 La elaboración de presupuestos, implica un proceso sistemático que considera tanto factores internos como externos. A través de un análisis detallado del entorno, la situación financiera y las políticas organizacionales, las empresas pueden anticiparse a riesgos y establecer metas realistas. Cada tipo de presupuesto, desde la proyección de ventas hasta la planificación de inversiones, desempeña un papel clave en la alineación de las estrategias con los objetivos corporativos.
         .col-lg-auto
           figure
