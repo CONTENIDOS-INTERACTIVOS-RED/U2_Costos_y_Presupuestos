@@ -386,7 +386,7 @@
 
           .bg-color-4.tarjeta.box-shadow.p-3(x="94%" y="10%" numero="+")
             h5 Presupuesto de producción
-            p Detalla los costos relacionados con la fabricación de productos, incluyendo materias primas, mano de obra directa y costos indirectos de producción. Asegura la producción necesaria para satisfacer la demanda proyectada, evitando problemas de sobreproducción o desabastecimiento..
+            p Detalla los costos relacionados con la fabricación de productos, incluyendo materias primas, mano de obra directa y costos indirectos de producción. Asegura la producción necesaria para satisfacer la demanda proyectada, evitando problemas de sobreproducción o desabastecimiento.
 
           .bg-color-4.tarjeta.box-shadow.p-3(x="50%" y="95%" numero="+")
             h5 Presupuesto de gastos operativos

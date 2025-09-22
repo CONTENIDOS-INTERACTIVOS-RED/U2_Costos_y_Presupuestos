@@ -137,7 +137,7 @@
             p Extender plazos de pago, ofrecer mayores descuentos, explorar nuevos mercados.
 
           .div(titulo="Mejorar productos")
-            p Optimizar calidad, tiempos de entrega y reforzar la inversión en publicidad..
+            p Optimizar calidad, tiempos de entrega y reforzar la inversión en publicidad.
 
           .div(titulo="Adquirir activos")
             p Evaluar opciones de financiamiento: aportes de accionistas, créditos o leasing.
@@ -398,32 +398,31 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál es el propósito principal de calcular los costos en una organización?',
+              '¿Cuál es el propósito principal del presupuesto según Rincón Soto, C. A. (2011)?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
                 texto:
-                  'Controlar el nivel de producción y almacenamiento en la empresa.',
+                  'Analizar la competencia y diseñar estrategias de mercado.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto:
-                  'Evaluar los recursos invertidos en la producción de bienes o servicios',
-                esCorrecta: true,
+                texto: 'Evaluar únicamente los costos directos de producción.',
+                esCorrecta: false,
               },
               {
                 id: 'c',
                 texto:
-                  'Incrementar los ingresos mediante estrategias financieras avanzadas.',
-                esCorrecta: false,
+                  'Proporcionar indicadores financieros necesarios y rentabilidad',
+                esCorrecta: true,
               },
               {
                 id: 'd',
                 texto:
-                  'Identificar la cantidad de personal necesario para cada proceso.',
+                  'Determinar las políticas de contratación del próximo periodo.',
                 esCorrecta: false,
               },
             ],
@@ -432,33 +431,30 @@ export default {
           },
           {
             id: 2,
-            texto: '¿Cómo se define el costo dentro de una organización?',
+            texto:
+              '¿Qué permite evaluar el presupuesto en el proceso productivo de una empresa?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto:
-                  'Como un gasto que no genera beneficios y no es recuperable.',
+                texto: 'La creatividad en el diseño de estrategias de mercado.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto:
-                  'Como el único recurso necesario para transformar materias primas.',
-                esCorrecta: false,
+                texto: 'La rentabilidad generada por los recursos utilizados.',
+                esCorrecta: true,
               },
               {
                 id: 'c',
-                texto:
-                  'Como una inversión exclusiva en el almacenamiento de productos terminados.',
+                texto: 'La variabilidad de precios en la competencia.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto:
-                  'Como un desembolso que genera un beneficio futuro y es capitalizable',
-                esCorrecta: true,
+                texto: 'Los estilos de liderazgo aplicados en la empresa.',
+                esCorrecta: false,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -467,30 +463,33 @@ export default {
           {
             id: 3,
             texto:
-              '¿Qué elementos componen el costo total de producción en una empresa industrial?',
+              '¿Cuál es una de las ventajas principales de trabajar con un presupuesto en la gestión financiera?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Materias primas y costos totales de maquinaria',
+                texto:
+                  'Establecer límites específicos para los gastos y asegurar que las áreas cumplan con los plazos.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Solo gastos de personal y electricidad',
+                texto:
+                  'Permitir que cada departamento gestione sus recursos de manera independiente y autónoma.',
                 esCorrecta: false,
               },
               {
                 id: 'c',
                 texto:
-                  'Materia prima, mano de obra y costos indirectos de fabricación',
-                esCorrecta: true,
+                  'Garantizar que las estrategias funcionen sin necesidad de realizar ajustes posteriores.',
+                esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Precio de venta y gastos administrativos',
-                esCorrecta: false,
+                texto:
+                  'Alinear las decisiones financieras con los objetivos mediante la fijación de ingresos y gastos.',
+                esCorrecta: true,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -499,32 +498,32 @@ export default {
           {
             id: 4,
             texto:
-              '¿Cuál es el propósito principal del uso de costos para establecer precios de venta?',
+              '¿Qué beneficio proporciona la planeación de metas razonables en un presupuesto?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
                 texto:
-                  'Garantizar la calidad de los productos ofertados en el mercado.',
+                  'Simplificar el proceso de gestión financiera al reducir la incertidumbre operativa.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
                 texto:
-                  'Determinar precios competitivos y rentables para el mercado objetivo.',
-                esCorrecta: true,
+                  'Garantizar que los resultados siempre se ajusten a las expectativas iniciales planteadas.',
+                esCorrecta: false,
               },
               {
                 id: 'c',
                 texto:
-                  'Facilitar la expansión geográfica de la empresa en nuevos mercados.',
-                esCorrecta: false,
+                  'Permitir que las metas sean alcanzables gracias a un análisis detallado de los recursos disponibles.',
+                esCorrecta: true,
               },
               {
                 id: 'd',
                 texto:
-                  'Mejorar la percepción del cliente sobre el producto ofrecido.',
+                  'Facilitar la definición de metas centradas en plazos y proyecciones exclusivamente a corto plazo.',
                 esCorrecta: false,
               },
             ],
@@ -534,32 +533,32 @@ export default {
           {
             id: 5,
             texto:
-              '¿Cómo contribuyen los costos al control eficiente de la producción?',
+              '¿Cuál es el principal objetivo de los presupuestos operativos en una organización?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
                 texto:
-                  'Permiten supervisar y reducir materiales desperdiciados en los procesos.',
-                esCorrecta: true,
+                  'Proyectar ingresos y egresos para evitar desequilibrios financieros.',
+                esCorrecta: false,
               },
               {
                 id: 'b',
                 texto:
-                  'Ayudan a calcular las pérdidas contables de los inventarios.',
-                esCorrecta: false,
+                  'Planificar y controlar las actividades operativas diarias eficientemente.',
+                esCorrecta: true,
               },
               {
                 id: 'c',
                 texto:
-                  'Determinan los tiempos necesarios para la capacitación del personal.',
+                  'Determinar las necesidades de financiamiento externo o interno.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
                 texto:
-                  'Facilitan la evaluación de estrategias publicitarias para el producto.',
+                  'Evaluar la viabilidad de proyectos de inversión a largo plazo.',
                 esCorrecta: false,
               },
             ],
